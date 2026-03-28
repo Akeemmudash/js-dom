@@ -60,6 +60,7 @@ function addEmployee() {
 }
 
 function remove(employeeId) {
-  //generate an array of elements with except to the element with id of employeeId
+  //generate an array of elements with except to the element with an id of employeeId from the employee array
+  // and log the new array to the console.
 }
 addEmployeeBtn.onclick = addEmployee;
