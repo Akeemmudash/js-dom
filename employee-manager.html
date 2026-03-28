@@ -12,7 +12,7 @@
     <title>Employee Manager</title>
   </head>
 
-  <body class="bg-light">
+  <body class="bg-light" id="employee-page">
     <div class="container mt-5">
       <h2 class="text-center mb-4">Employee Manager</h2>
 
@@ -63,18 +63,7 @@
               </tr>
             </thead>
 
-            <tbody id="employee-table-body">
-              <tr>
-                <td>John Doe</td>
-                <td>Engineering</td>
-                <td>$5000</td>
-                <td>
-                  <button class="btn btn-danger btn-sm delete-employee-btn">
-                    Remove
-                  </button>
-                </td>
-              </tr>
-            </tbody>
+            <tbody id="employee-table-body"></tbody>
           </table>
 
           <div class="mt-3">
@@ -84,5 +73,6 @@
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
