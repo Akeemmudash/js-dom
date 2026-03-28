@@ -60,7 +60,14 @@ function addEmployee() {
 }
 
 function remove(employeeId) {
-  //generate an array of elements with except to the element with an id of employeeId from the employee array
+  //generate an array of employee elements with exception to the employee with an id of 1 from the employee array
   // and log the new array to the console.
 }
 addEmployeeBtn.onclick = addEmployee;
+const employeeArr = [
+  { name: "John", dept: "Accounting", salary: "400000", id: 1 },
+  { name: "Steven", dept: "IT", salary: "400000", id: 2 },
+  { name: "Sadiq", dept: "Business", salary: "700000", id: 3 },
+];
+
+//generate a new array from the employeeArr with exception of the Element with an id of 2
